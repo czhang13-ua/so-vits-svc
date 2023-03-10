@@ -1,0 +1,2 @@
+./dataset/44k/DiaFull4/DiaFull320.wav
+./dataset/44k/DiaFull4/DiaFull225.wav
