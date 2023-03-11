@@ -40,7 +40,7 @@ def main():
     parser.add_argument('-d', '--device', type=str, default=None, help='推理设备，None则为自动选择cpu和gpu')
     parser.add_argument('-ns', '--noice_scale', type=float, default=0.4, help='噪音级别，会影响咬字和音质，较为玄学')
     parser.add_argument('-p', '--pad_seconds', type=float, default=0.5, help='推理音频pad秒数，由于未知原因开头结尾会有异响，pad一小段静音段后就不会出现')
-    parser.add_argument('-wf', '--wav_format', type=str, default='wav', help='音频输出格式')
+    parser.add_argument('-wf', '--wav_format', type=str, default='flac', help='音频输出格式')
 
     args = parser.parse_args()
 
